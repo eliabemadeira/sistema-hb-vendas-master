@@ -1,0 +1,19 @@
+<div class="cadastro modelo1 ff-roboto-mono " [ngClass]="larguraItemCadastrado()">
+  <img class="logo" src="../../../assets/imagens/logo-hb.png" alt="logo hb vendas" />
+  <h3 >Nome</h3>
+  <p class="conteudo">{{ cadastro.nome }}</p>
+  <h3 >Categoria</h3>
+  <p class="conteudo">{{ cadastro.categoria }}</p>
+  <h3 >Email</h3>
+  <p class="conteudo">{{ cadastro.email }}</p>
+  <h3 >Telefone</h3>
+  <p class="conteudo">{{ cadastro.telefone }}</p>
+  <div class="acoes">
+    <button class="botao-editar" routerLink="/cadastro/editarCadastro/{{cadastro.id}}">
+      <img class="img-editar" src="/assets/imagens/icone-editar.png" alt="Ícone de editar" />
+    </button>
+    <button class="botao-excluir" routerLink="/cadastro/excluirCadastro/{{cadastro.id}}">
+      <img class="img-editar" src="/assets/imagens/icone-trash.png" alt="Ícone de excluir" />
+    </button>
+  </div>
+</div>

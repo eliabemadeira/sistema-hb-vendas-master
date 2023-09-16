@@ -1,0 +1,51 @@
+<section class="container editar-cadastros ff-inter">
+  <header class="header">
+    <h2>
+      Adicione um <br />
+      novo fornecedor:
+    </h2>
+  </header>
+  <form>
+    <label for="cadastro">cadastro</label>
+    <input
+      type="textarea"
+      class="input"
+      id="cadastro"
+      name="cadastro"
+      placeholder="Informe o nome "
+      [(ngModel)]="cadastro.nome"
+    />
+    <label for="categoria">categoria</label>
+    <input
+      type="textarea"
+      class="input"
+      id="categoria"
+      name="categoria"
+      placeholder="Informe a categoria"
+      [(ngModel)]="cadastro.categoria"
+    />
+    <label for="e-mail">E-mail</label>
+    <input
+      type="textarea"
+      class="input"
+      id="e-mail"
+      name="e-mail"
+      placeholder="Informe o e-mail"
+      [(ngModel)]="cadastro.email"
+    />
+    <label for="telefone">Telefone</label>
+    <input
+      type="textarea"
+      class="input"
+      id="telefone"
+      name="telefone"
+      placeholder="Informe o telefone"
+      [(ngModel)]="cadastro.telefone"
+    />
+    <div class="acoes">
+      <button (click)="editarCadastro()" class="botao">Salvar</button>
+      <button (click)="cancelar()" class="botao">Cancelar</button>
+    </div>
+  </form>
+</section>
+

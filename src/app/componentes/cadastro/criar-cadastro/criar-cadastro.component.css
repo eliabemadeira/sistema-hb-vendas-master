@@ -1,0 +1,48 @@
+.acoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.botao {
+  margin: 5px;
+  margin-top: 70px;
+  width: 200px;
+}
+
+.criar-cadastros {
+  padding: 2rem 0;
+}
+
+.criar-cadastros form {
+  background: black;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.criar-cadastros form label {
+  color: white;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+
+.criar-cadastros form .input {
+  border: none;
+  height: 40px;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 0.5rem 0 2rem;
+}
+
+
+.criar-cadastros form .textarea {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 0.5rem 0 2rem;
+}
+

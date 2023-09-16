@@ -1,0 +1,65 @@
+.acoes {
+  display: flex;
+  justify-content: flex-end
+}
+
+.botao-excluir {
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.botao-editar {
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.img-editar{
+  width: 50%;
+}
+
+.cadastro {
+  background-color: #F8F9FE;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.cadastro .conteudo {
+  margin: 1rem auto;
+  word-wrap: break-word;
+}
+
+.cadastro .autoria {
+  word-wrap: break-word;
+}
+
+.modelo1 {
+  box-shadow: 8px 8px 0px #e3c105;
+}
+
+.logo {
+  width: 25%;
+  padding:1em 10em 1em 10em;
+  justify-self: center;
+}
+
+.cadastro-g {
+  width: 350px;
+}
+
+.cadastro-p {
+  width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .cadastro-g {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .cadastro-p {
+    width: 100%;
+  }
+}
